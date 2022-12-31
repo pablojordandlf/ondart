@@ -3,26 +3,31 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/planet-01.png',
     title: 'Videollamada',
+    description: "Como no podría ser de otra forma la videollamada es lo que tenemos para poder conocernos mejor, de una manera más cercana y personal. No notarás la diferencia entre una consulta presencial y online.",
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Historia Clínica',
+    description: "Nunca puede faltar un análisis exhaustivo de toda la experiencia previa y el peregrinaje terapéutico que acontece a tu problema. Esto nos llevará a saber realmente cual es tu situación actual mediante preguntas que nunca te hubieses planteado que pudiese tener relación con tu dolor.",
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'Valoración funcional',
+    description: "Sin saber como te comportas cuando aparece la situación que te genera dolor, no podemos hacer mucho. Por eso el conocer cómo te mueves, qué situaciones evitas, qué haces y cómo reaccionas cuando tienes dolor, nos dará información crucial para proponerte la mejor solución.",
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: 'Ejercicio terapéutico',
+    description: "Olvídate de los típicos programas «copia y pega» que no se corresponde con lo que tú necesitas. Aunque tu dolor se parezca al de tu vecina, va a tener otras características, distinto significado y diferente repercusión en tu día a día. «Lo que a tu vecina le viene bien, a ti no te funciona».",
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'Herramientas terapéuticas',
+    description: "Puede que no lo creas, pero todo no es ejercicio. Existen diversas estrategias que te van a ayudar a disminuir tus síntomas. Aprenderás a gestionar tu dolor en cualquier momento sin la necesidad de depender de nadie.",
   },
 ];
 
