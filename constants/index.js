@@ -28,55 +28,38 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/bus.png',
+    title: 'IDA',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Hay servicio de buses de ida a la finca con salida próxima al lugar de la ceremonia.',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/bus.png',
+    title: 'VUELTA',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Hay servicio de buses para volver a Madrid.',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/foto1.jpg',
+    title: 'HOTEL BLA1',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'BLABLABLA.',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/foto1.jpg',
+    title: 'HOTEL BLA2',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'BLABLABLABLA',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/foto1.jpg',
+    title: 'HOTEL BLABLA3',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'BLABLABLABLABLA',
   },
 ];
 
-export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-  },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
-];
+
