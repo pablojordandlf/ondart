@@ -20,9 +20,9 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Experiencia eFisio" textStyles="text-center" />
+        <TypingText title="| Detalles del evento" textStyles="text-center" />
         <TitleText
-          title={<>Descubre nuestra forma <br className="md:block hidden" /> de trabajar</>}
+          title={<>Aquí podéis poner <br className="md:block hidden" /> algo si queréis</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
