@@ -18,22 +18,22 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
     />
     <div className="w-full flex justify-between items-center">
       <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-        <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
+        <h4 className="font-normal lg:text-[42px] text-[26px] text-[#B0B0B0]">
           {title}
         </h4>
-        <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
+        <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-[#B0B0B0]">
           {subtitle}
         </p>
       </div>
 
       <div
-        className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white"
+        className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[0px] "
       >
         <Link href= "https://drive.google.com/file/d/1LNjz6iaGgB-EnO6_U_G3ROqAMS_4jBD0/view">  
           <img
-            src="/arrow.svg"
+            src="/flecha-correcta.png" 
             alt="arrow"
-            className="w-[40%] h-[40%] object-contain"
+            className="w-[50%] h-[40%] object-contain "
           />
         </Link>
       </div>

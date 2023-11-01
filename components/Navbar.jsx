@@ -12,12 +12,12 @@ const Navbar = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div className="absolute w-[50%] inset-0 gradient-01" />
+    
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
       <h2/>
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-black">
         ITZIAR & LEANDRO
       </h2>
       <h2/>
