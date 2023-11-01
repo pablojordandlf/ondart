@@ -22,7 +22,7 @@ const Explore = () => {
       >
         <TypingText title="| Fecha y Hora" textStyles="text-center" />
         <TitleText
-          title={<>06.04.2024  <br className="md:block hidden" /> 13:00 en Madrid</>}
+          title={<>06.04.2024  <br /> 13:00 en Madrid</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
