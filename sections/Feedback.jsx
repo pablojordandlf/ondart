@@ -16,11 +16,13 @@ const Feedback = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="flex-[0.5] lg:max-w-[370px] flex justify-end gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          Aquí podéis poner la mítica frase de... "Nuestro mejor regalo es que estéis con nosotros este día, pero si queréis ayudarnos bla bla bla"
-        </p>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'flex-start', height: '100%' }}>
+          <p className="text-center font-normal sm:text-[20px] text-[16px] sm:leading-[45.6px] leading-[39.6px] text-white">
+            ¡Vuestra presencia es nuestro mejor regalo! Estaremos muy agradecidos si podéis ayudarnos en nuestro viaje de novios. <br/>ES37 0182 0972 1702 0169 7571
+          </p>
+        </div>
       </motion.div>
 
       <motion.div
@@ -32,8 +34,6 @@ const Feedback = () => (
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
-
-        
       </motion.div>
     </motion.div>
   </section>

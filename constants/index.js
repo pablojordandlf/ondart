@@ -1,23 +1,16 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/foto1.jpg',
-    title: 'Pre-boda',
-    description: "...",
+    imgUrl: '/parroquia.jpeg',
+    title: 'Ceremonia',
+    description: "Parroquia de San Manuel y San Benito",
   },
   {
     id: 'world-2',
-    imgUrl: '/foto1.jpg',
-    title: 'Ceremonia',
-    description: "...",
-  },
-  {
-    id: 'world-3',
-    imgUrl: '/foto1.jpg',
+    imgUrl: '/monico.jpeg',
     title: 'Celebración',
-    description: "...",
-  },
-  
+    description: "Casa Mónico",
+  }, 
 ];
 
 export const startingFeatures = [
@@ -43,22 +36,16 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/foto1.jpg',
-    title: 'HOTEL BLA1',
+    imgUrl: '/hotel1.jpeg',
+    title: 'HOTEL EL SARDINERO',
     subtitle:
-        'BLABLABLA.',
+        'Plaza Alonso Martínez. Hacer click en la flecha para más información.',
   },
   {
-    imgUrl: '/foto1.jpg',
-    title: 'HOTEL BLA2',
+    imgUrl: '/hotel2.jpeg',
+    title: 'AC Hotel Aravaca by Marriott',
     subtitle:
-        'BLABLABLABLA',
-  },
-  {
-    imgUrl: '/foto1.jpg',
-    title: 'HOTEL BLABLA3',
-    subtitle:
-        'BLABLABLABLABLA',
+        'Aravaca, cercano al sitio de la celebración. Hacer click en la flecha para más información.',
   },
 ];
 

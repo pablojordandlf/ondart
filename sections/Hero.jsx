@@ -16,7 +16,7 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          BIENVENIDOS
+          BODA <br className="md:block hidden" />ITZIAR & LEANDRO
         </motion.h1>
         
       </div>
@@ -26,7 +26,7 @@ const Hero = () => (
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <img
-          src="/foto1.jpg"
+          src="/foto2.jpeg"
           alt="hero_cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
