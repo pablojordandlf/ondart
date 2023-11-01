@@ -18,7 +18,13 @@ const Navbar = () => (
     >
       <h2/>
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-black">
-        ITZIAR & LEANDRO
+          
+
+
+
+
+
+          
       </h2>
       <h2/>
     </div>
