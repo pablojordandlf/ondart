@@ -33,9 +33,9 @@ const About = () => (
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-secondary-white"
       >
         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf6QB-LmPDSowgZBWDNAdL-heAGsdIrSjZI2O_nY9PUsSOjJw/viewform?usp=sf_link">
-          <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]" >
+          <button type="button" className="flex items-center h-fit py-6 px-10 bg-[#25618B] rounded-[10px] gap-[12px]" >
             
-            <span className="font-normal text-[16px] text-white">
+            <span className="font-normal text-[20px] text-white">
               Rellena el formulario
             </span>
           </button>

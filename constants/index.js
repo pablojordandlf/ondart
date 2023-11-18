@@ -37,9 +37,9 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/hotel1.jpeg',
-    title: 'HOTEL EL SARDINERO',
+    title: 'Hotel el Sardinero',
     subtitle:
-        'Plaza Alonso Martínez. Hacer click en la flecha para más información.',
+        'Plaza Alonso Martínez, cercano al sitio de la ceremonia. Hacer click en la flecha para más información.',
   },
   {
     imgUrl: '/hotel2.jpeg',
