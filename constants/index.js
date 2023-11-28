@@ -39,13 +39,13 @@ export const insights = [
     imgUrl: '/hotel1.jpeg',
     title: 'Hotel el Sardinero',
     subtitle:
-        'Plaza Alonso Martínez, cercano al sitio de la ceremonia. Hacer click en la flecha para más información.',
+        'Plaza Alonso Martínez, cercano al sitio de la ceremonia. Hay que escribir un mail con asunto "Boda Itziar y Leandro" a madrid-reservas@sardinerohoteles.com.',
   },
   {
-    imgUrl: '/hotel2.jpeg',
-    title: 'AC Hotel Aravaca by Marriott',
+    imgUrl: '/hotel_2.jpeg',
+    title: 'Exe Zarzuela Park',
     subtitle:
-        'Aravaca, cercano al sitio de la celebración. Hacer click en la flecha para más información.',
+        'Cercano al sitio de la celebración. Reservas a través de la web del hotel o en Booking.',
   },
 ];
 

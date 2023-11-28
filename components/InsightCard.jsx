@@ -29,13 +29,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       <div
         className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[0px] "
       >
-        <Link href= "https://drive.google.com/file/d/1LNjz6iaGgB-EnO6_U_G3ROqAMS_4jBD0/view">  
-          <img
-            src="/flecha-correcta.png" 
-            alt="arrow"
-            className="w-[50%] h-[40%] object-contain "
-          />
-        </Link>
+        
       </div>
     </div>
   </motion.div>
