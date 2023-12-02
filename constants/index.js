@@ -3,13 +3,13 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/parroquia.jpeg',
     title: 'Ceremonia',
-    description: "Parroquia de San Manuel y San Benito",
+    description: "Iglesia de San Manuel y San Benito (Calle de Alcalá 83, 28009, Madrid)",
   },
   {
     id: 'world-2',
     imgUrl: '/monico.jpeg',
     title: 'Celebración',
-    description: "Casa Mónico",
+    description: "La Casa de Mónico (Calle de Cabeza de Manzaneda 105, 28023, Madrid)",
   }, 
 ];
 
