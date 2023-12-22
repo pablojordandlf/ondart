@@ -1,8 +1,10 @@
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+import { Analytics } from '@vercel/analytics/react';
 
 const Home = () => (
   <div className="bg-primary-white overflow-hidden">
+    <Analytics />
     <Navbar />
     <Hero />
     <div className="relative">
