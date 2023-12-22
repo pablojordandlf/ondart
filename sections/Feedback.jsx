@@ -20,7 +20,7 @@ const Feedback = () => (
       >
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'flex-start', height: '100%' }}>
           <p className="text-center font-normal sm:text-[20px] text-[16px] sm:leading-[45.6px] leading-[39.6px] text-black">
-            bla bla bla bla bla
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
             <br/>
           </p>
         </div>
@@ -31,7 +31,7 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/foto1.jpg"
+          src="/planet-08.png"
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
