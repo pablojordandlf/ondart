@@ -1,51 +1,65 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/parroquia.jpeg',
-    title: 'Ceremonia',
-    description: "Iglesia de San Manuel y San Benito (Calle de Alcalá 83, 28009, Madrid)",
+    imgUrl: '/planet-01.png',
+    title: 'Explora',
+    description: "Explora artistas bla bla bla",
   },
   {
     id: 'world-2',
-    imgUrl: '/monico.jpeg',
-    title: 'Celebración',
-    description: "La Casa de Mónico (Calle de Cabeza de Manzaneda 105, 28023, Madrid)",
+    imgUrl: '/planet-03.png',
+    title: 'Contacta',
+    description: "Nuestro equipo de expertos estará encantado de ayudarte en tu decisión y ponerte en contacto con los mejores artesanos",
+  }, 
+  {
+    id: 'world-3',
+    imgUrl: '/planet-05.png',
+    title: 'Disfruta del arte',
+    description: "Dirsfruta la fruta, y el arte también.",
   }, 
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Tienes un proyecto',
+  'Ponte en contacto con nosotras y nos cuentas lo que buscas',
+  'Te presentamos nuestra cartera de artesanos',
+  'Te asesoramos y acompañamos en la mejor elección',
+  'Disfruta del arte'
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/bus.png',
-    title: 'IDA',
+    imgUrl: '/mano.png',
+    title: 'bueno',
     subtitle:
-        'Hay servicio de buses de ida a la finca con salida próxima al lugar de la ceremonia.',
+        'bla bla.',
   },
   {
-    imgUrl: '/bus.png',
-    title: 'VUELTA',
+    imgUrl: '/mano.png',
+    title: 'bonito',
     subtitle:
-        'Hay servicio de buses para volver a Madrid.',
+        'bla bla bla',
+  },
+  {
+    imgUrl: '/mano.png',
+    title: 'no barato',
+    subtitle:
+        'más bla bla bla bla.',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/hotel1.jpeg',
-    title: 'Hotel el Sardinero',
+    title: 'Artesano 1',
     subtitle:
-        'Plaza Alonso Martínez, cercano al sitio de la ceremonia. Hay que escribir un mail con asunto "Boda Itziar y Leandro" a madrid-reservas@sardinerohoteles.com.',
+        'Artesano 1, trabaja con acrílicos en estilos chupiflasticos y mogollón de cosas chulas.',
   },
   {
     imgUrl: '/hotel_2.jpeg',
-    title: 'Exe Zarzuela Park',
+    title: 'Artesano 2',
     subtitle:
-        'Cercano al sitio de la celebración. Reservas a través de la web del hotel o en Booking.',
+        'Especializado en escultura y otras movidas.',
   },
 ];
 
