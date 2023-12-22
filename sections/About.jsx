@@ -18,29 +18,17 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| Mil gracias" textStyles="text-center" />
+      <TypingText title="| El lugar donde encontrar artesanos" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-black"
       >
-        Estamos muy felices de que podáis acompañarnos en este día tan especial
+        Aquí puedes poner un mensaje que quieras resaltar más
         
       </motion.p>
       <br />
-      <motion.p
-        variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-secondary-white"
-      >
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf6QB-LmPDSowgZBWDNAdL-heAGsdIrSjZI2O_nY9PUsSOjJw/viewform?usp=sf_link">
-          <button type="button" className="flex items-center h-fit py-6 px-10 bg-[#25618B] rounded-[10px] gap-[12px]" >
-            
-            <span className="font-normal text-[20px] text-white">
-              Rellena el formulario
-            </span>
-          </button>
-        </Link>
-      </motion.p>
+      
         
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}

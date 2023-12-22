@@ -26,8 +26,8 @@ const Hero = () => (
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <img
-          src="/foto2.JPG"
-          alt="hero_cover"
+          src="/front1.png"
+          alt="ondart"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
         
