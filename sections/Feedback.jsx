@@ -16,11 +16,12 @@ const Feedback = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="flex-[0.5] lg:max-w-[370px] flex gradient-05 sm:p-8 p-4 rounded-[32px] border-[0px] border-[#6A6A6A] "
       >
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'flex-start', height: '100%' }}>
           <p className="text-center font-normal sm:text-[20px] text-[16px] sm:leading-[45.6px] leading-[39.6px] text-black">
-            ¡Vuestra presencia es nuestro mejor regalo! Estaremos muy agradecidos si podéis ayudarnos en nuestro viaje de novios. <br/>ES37 0182 0972 1702 0169 7571
+            bla bla bla bla bla
+            <br/>
           </p>
         </div>
       </motion.div>

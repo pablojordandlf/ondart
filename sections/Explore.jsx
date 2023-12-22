@@ -20,9 +20,9 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Fecha y Hora" textStyles="text-center" />
+        <TypingText title="| Se puede quitar, " textStyles="text-center" />
         <TitleText
-          title={<>06.04.2024  <br /> 13:00 en Madrid</>}
+          title={<>Sigue la pista  <br /> para encontrar al artista</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
