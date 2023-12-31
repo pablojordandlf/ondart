@@ -20,11 +20,13 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Se puede quitar, " textStyles="text-center" />
+        {/*
+        <TypingText title="| Descubre Ondart, " textStyles="text-center" />
         <TitleText
-          title={<>Sigue la pista  <br /> para encontrar al artista</>}
+          title={<>ABC </>}
           textStyles="text-center"
         />
+        */}
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
