@@ -20,9 +20,9 @@ const WhatsNew = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="| bla bla bla" />
-        <TitleText title={<>bla bla bla</>} />
-        <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+        <TypingText title="| Conctacto" />
+        {/*<TitleText title={<></>} />*/}
+        <div className="mt-[48px] flex flex-wrap justify-between gap-[10 px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
           ))}
@@ -36,7 +36,7 @@ const WhatsNew = () => (
         <img
           src="/mano.png"
           alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-[100%] h-[100%] object-contain"
         />
       </motion.div>
     </motion.div>

@@ -2,64 +2,70 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'Explora',
-    description: "Explora artistas bla bla bla",
+    title: 'PROYECTOS',
+    description: "Descubre proyectos de clientes que han confiado en ONDART.",
   },
   {
     id: 'world-2',
     imgUrl: '/planet-03.png',
-    title: 'Contacta',
-    description: "Nuestro equipo de expertos estará encantado de ayudarte en tu decisión y ponerte en contacto con los mejores artesanos",
+    title: 'OFICIOS',
+    description: "En ONDART trabajamos con una amplio catálogo de artesanos especializados en cerámica, textil, madera, metal y piedra.",
   }, 
   {
     id: 'world-3',
     imgUrl: '/planet-05.png',
-    title: 'Disfruta del arte',
-    description: "Dirsfruta la fruta, y el arte también.",
+    title: 'PRODUCTOS',
+    description: "Encuentra el producto que mejor se adapta a tus necesidades. bla bla bla >>>>.",
   }, 
 ];
 
 export const startingFeatures = [
-  'Tienes un proyecto',
-  'Ponte en contacto con nosotras y nos cuentas lo que buscas',
-  'Te presentamos nuestra cartera de artesanos',
-  'Te asesoramos y acompañamos en la mejor elección',
-  'Disfruta del arte'
+  'Primero',
+  'Segundo',
+  'Tercero',
+  'Cuarto',
+  'Quinto'
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/mano.png',
-    title: 'bueno',
+    imgUrl: '/X.png',
+    title: 'email',
     subtitle:
-        'bla bla.',
+        'Mande un email a info@ondart.es y te contestaremos con la mayor brevedad posible.',
   },
   {
-    imgUrl: '/mano.png',
-    title: 'bonito',
+    imgUrl: '/X.png',
+    title: 'teléfono',
     subtitle:
-        'bla bla bla',
+        'También puede llamar o escribir al 1234567890',
   },
   {
-    imgUrl: '/mano.png',
-    title: 'no barato',
+    imgUrl: '/X.png',
+    title: 'redes',
     subtitle:
-        'más bla bla bla bla.',
+        'No se pierda las novedades artesanales y síganos en @ondart.es',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/hotel1.jpeg',
-    title: 'Artesano 1',
+    imgUrl: '/people-01.png',
+    title: 'artesano 1',
     subtitle:
-        'Artesano 1, trabaja con acrílicos en estilos chupiflasticos y mogollón de cosas chulas.',
+        'XXXX',
   },
   {
-    imgUrl: '/hotel_2.jpeg',
-    title: 'Artesano 2',
+    imgUrl: '/people-02.png',
+    title: 'artesano 2',
     subtitle:
-        'Especializado en escultura y otras movidas.',
+        'XXXX',
+  },
+  {
+    imgUrl: '/people-03.png',
+    title: 'artesano 3',
+    subtitle:
+        'XXXX',
   },
 ];
 

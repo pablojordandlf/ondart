@@ -1,7 +1,7 @@
 import styles from '../styles';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
-  <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
+  <div className="flex-1 flex flex-col sm:max-w-[500px] min-w-[500px]">
     <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] text-[#B0B0B0]">
       {title}
     </h1>

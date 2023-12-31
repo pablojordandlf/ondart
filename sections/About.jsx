@@ -18,14 +18,15 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| El lugar donde encontrar artesanos" textStyles="text-center" />
+      <TypingText title="| Ondart te pone en contacto con artesanos del territorio español" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-black"
       >
-        Aquí puedes poner un mensaje que quieras resaltar más
         
+        Busca soluciones a trabajos no estandarizados gracias a las artes aplicadas y al conocimiento de las distintas posibilidades que se puedan dar, adecuándose así al cliente con un trabajo de calidad.
+
       </motion.p>
       <br />
       
