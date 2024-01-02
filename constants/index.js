@@ -32,7 +32,7 @@ export const newFeatures = [
     imgUrl: '/X.png',
     title: 'email',
     subtitle:
-        'Mande un email a info@ondart.es y te contestaremos con la mayor brevedad posible.',
+        'info@ondart.es',
   },
   {
     imgUrl: '/X.png',
@@ -44,7 +44,7 @@ export const newFeatures = [
     imgUrl: '/X.png',
     title: 'redes',
     subtitle:
-        'No se pierda las novedades artesanales y síganos en @ondart.es',
+        'Síganos en @ondart.es',
   },
 ];
 
